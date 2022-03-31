@@ -10,16 +10,22 @@ import SwiftUI
 struct ChartView: View {
     @ObservedObject var observer: AudioStreamObserver
     var body: some View {
-        HStack(alignment: .bottom) {
-            ForEach(0..<observer.topResults.count, id: \.self) { index in
-                RoundedRectangle(cornerRadius: 2.0)
-                    
-                    .frame(height: 250 * observer.topResults[index].confidence)
-            }
-        }
         
-        .fixedSize()
-        .frame(height: 250)
+        
+        VStack(alignment: .leading) {
+            RoundedRectangle(cornerRadius: 2.0)
+                .foregroundColor(.clear)
+                .frame(width: 250, height: 1)
+            ForEach(0..<observer.topResults.count, id: \.self) { index in
+                    RoundedRectangle(cornerRadius: 2.0)
+                        .frame(width: 250 * observer.topResults[index].confidence, height: 20, alignment: .center)
+                        .animation(.linear)
+                }
+            }
+           
+            
+            
+        
     }
 }
 
