@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13D5CE1D27FB2C330023AF2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D5CE1C27FB2C330023AF2F /* ContentView.swift */; };
 		D188306827F3349800984979 /* ListenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D188306727F3349800984979 /* ListenButton.swift */; };
 		D188306A27F338EA00984979 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D188306927F338EA00984979 /* ChartView.swift */; };
 		D199FA8127F1FB3400252722 /* envsoundclassifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199FA8027F1FB3400252722 /* envsoundclassifierApp.swift */; };
@@ -15,11 +16,11 @@
 		D199FA9127F1FB4900252722 /* AudioStreamObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199FA8E27F1FB4900252722 /* AudioStreamObserver.swift */; };
 		D199FA9227F1FB4900252722 /* RTSoundClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199FA8F27F1FB4900252722 /* RTSoundClassifier.swift */; };
 		D199FA9327F1FB4900252722 /* AudioStreamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199FA9027F1FB4900252722 /* AudioStreamManager.swift */; };
-		D199FA9527F1FB5600252722 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D199FA9427F1FB5600252722 /* ContentView.swift */; };
 		D1E3055327F32E450032D1B7 /* EnvSoundClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D1E3055227F32E450032D1B7 /* EnvSoundClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13D5CE1C27FB2C330023AF2F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D188306727F3349800984979 /* ListenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenButton.swift; sourceTree = "<group>"; };
 		D188306927F338EA00984979 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		D199FA7D27F1FB3400252722 /* envsoundclassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = envsoundclassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,7 +30,6 @@
 		D199FA8E27F1FB4900252722 /* AudioStreamObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioStreamObserver.swift; sourceTree = "<group>"; };
 		D199FA8F27F1FB4900252722 /* RTSoundClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTSoundClassifier.swift; sourceTree = "<group>"; };
 		D199FA9027F1FB4900252722 /* AudioStreamManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioStreamManager.swift; sourceTree = "<group>"; };
-		D199FA9427F1FB5600252722 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../soundclassify/soundclassify/ContentView.swift; sourceTree = "<group>"; };
 		D1E3055227F32E450032D1B7 /* EnvSoundClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = EnvSoundClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,8 +63,8 @@
 		D199FA7F27F1FB3400252722 /* envsoundclassifier */ = {
 			isa = PBXGroup;
 			children = (
+				13D5CE1C27FB2C330023AF2F /* ContentView.swift */,
 				D199FA8027F1FB3400252722 /* envsoundclassifierApp.swift */,
-				D199FA9427F1FB5600252722 /* ContentView.swift */,
 				D188306727F3349800984979 /* ListenButton.swift */,
 				D199FA9027F1FB4900252722 /* AudioStreamManager.swift */,
 				D199FA8E27F1FB4900252722 /* AudioStreamObserver.swift */,
@@ -157,9 +157,9 @@
 			files = (
 				D199FA9327F1FB4900252722 /* AudioStreamManager.swift in Sources */,
 				D188306827F3349800984979 /* ListenButton.swift in Sources */,
-				D199FA9527F1FB5600252722 /* ContentView.swift in Sources */,
 				D199FA9127F1FB4900252722 /* AudioStreamObserver.swift in Sources */,
 				D1E3055327F32E450032D1B7 /* EnvSoundClassifier.mlmodel in Sources */,
+				13D5CE1D27FB2C330023AF2F /* ContentView.swift in Sources */,
 				D199FA9227F1FB4900252722 /* RTSoundClassifier.swift in Sources */,
 				D199FA8127F1FB3400252722 /* envsoundclassifierApp.swift in Sources */,
 				D188306A27F338EA00984979 /* ChartView.swift in Sources */,
